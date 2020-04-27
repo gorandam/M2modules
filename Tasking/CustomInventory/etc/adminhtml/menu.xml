@@ -1,0 +1,7 @@
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Tasking_CustomInventory::custominventory"  title="Custom Inventory" translate="title"
+             module="Tasking_CustomInventory" sortOrder="100" parent="Magento_Catalog::inventory"
+             action="custominventory/product/index" resource="Tasking_CustomInventory::custominventory" />
+    </menu>
+</config>

@@ -1,0 +1,7 @@
+<config>
+    <router id="admin">
+        <route id="custominventory" frontName="custominventory">
+            <module name="Tasking_CustomInventory" />
+        </route>
+    </router>
+</config>
